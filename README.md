@@ -12,6 +12,8 @@ pip install -r requirements.txt
 
 Install the web drivers for selenium following [this](https://github.com/SeleniumHQ/selenium/blob/trunk/py/docs/source/index.rst)
 
+Open "monitoring.html" in your target browser and check if the video loads and plays.
+
 Run the python script. For example:
 ```
 python3 monitor.py -d Firefox -p 60
