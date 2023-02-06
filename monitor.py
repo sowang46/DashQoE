@@ -2,6 +2,7 @@ from time import sleep
 from time import time as ts
 from selenium import webdriver 
 from selenium.webdriver.common.by import By
+import os
 import logging
 import argparse
 import matplotlib.pyplot as plt
@@ -17,7 +18,7 @@ def plot(data):
     plt.show()
 
 def scrap(driver, args):
-    url = "file:///Users/songwang/Documents/DashQoE/monitoring.html"
+    url = "file://"+os.getcwd()+"/monitoring.html"
     driver.get(url)
     sleep(1)
     assert driver.title == "DashQoE", "Cannot open DashQoE page"
