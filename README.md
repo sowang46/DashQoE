@@ -16,8 +16,8 @@ Open "monitoring.html" in your target browser and check if the video loads and p
 
 Run the python script. For example:
 ```
-python3 monitor.py -d Firefox -p 60
-# python3 monitor.py -h
+python3 monitor_dash.py -d Firefox -p 60
+# python3 monitor_dash.py -h
 ```
 
 ## Measure DASH QoE under Mahimahi traffic regulation
