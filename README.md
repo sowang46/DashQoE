@@ -4,6 +4,8 @@ Measure DASH video streaming QoE with reference [dash.js](https://github.com/Das
 
 ## Basic usage
 
+Install Firefox: `sudo apt install firefox-esr`
+
 Install required Python libraries: 
 
 ```
